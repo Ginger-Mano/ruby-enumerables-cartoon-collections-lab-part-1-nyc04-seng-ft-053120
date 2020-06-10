@@ -8,8 +8,8 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  array.count do |character|
-    %w(array).each_with_index(character)
+  array.each do |character|
+    %w(character).each_with_index
   end
   # Use `each_with_index` to enumerate over the provided array
   #
