@@ -9,7 +9,7 @@ end
 
 def list_dwarves(array)
   array.count do |character|
-    puts character.list
+    %w(character).each_with_index
   end
   # Use `each_with_index` to enumerate over the provided array
   #
